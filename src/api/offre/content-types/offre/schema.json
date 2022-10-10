@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offres",
+  "info": {
+    "singularName": "offre",
+    "pluralName": "offres",
+    "displayName": "Offre",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Intitule": {
+      "type": "text"
+    },
+    "name_button": {
+      "type": "string"
+    },
+    "photo_offre": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
